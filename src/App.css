@@ -7,9 +7,37 @@
 
 }
 
+label,
+input {
+  font-size: 0.75rem;
+}
+
+button {
+  width: 100%;
+  padding: 0.25rem 0;
+}
+
+#email {
+  width: 10rem;
+}
+
 .image {
-  max-width: 20rem;
-  max-height: 20rem;
+  max-width: 18rem;
+  max-height: 18rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: auto;
+  text-align: left;
+  line-height: 3rem;
+}
+
+.email-wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
