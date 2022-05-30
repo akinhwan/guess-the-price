@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+.image-wrapper {
+  width: 100%;
+
+}
+
+.image {
+  max-width: 20rem;
+  max-height: 20rem;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +42,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
